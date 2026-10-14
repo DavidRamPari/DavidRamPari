@@ -11,6 +11,9 @@ I build web products end to end, from the database and the API to the interface,
 
 Open to freelance projects, internships and junior roles.
 
+<a href="mailto:davidramosparihuaman.22@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-email-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-email-en-light.svg"><img src="assets/contact-email-en-light.svg" alt="Email"></picture></a>
+<a href="https://www.linkedin.com/in/david-ramos-parihuaman-8a1115354"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-linkedin-en-light.svg"><img src="assets/contact-linkedin-en-light.svg" alt="LinkedIn"></picture></a>
+
 </div>
 
 ## What I can offer

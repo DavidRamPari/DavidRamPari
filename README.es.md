@@ -11,6 +11,9 @@ Construyo productos web de punta a punta, desde la base de datos y la API hasta 
 
 Disponible para proyectos freelance, prácticas y puestos junior.
 
+<a href="mailto:davidramosparihuaman.22@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-email-es-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-email-es-light.svg"><img src="assets/contact-email-es-light.svg" alt="Correo"></picture></a>
+<a href="https://www.linkedin.com/in/david-ramos-parihuaman-8a1115354"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-es-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-linkedin-es-light.svg"><img src="assets/contact-linkedin-es-light.svg" alt="LinkedIn"></picture></a>
+
 </div>
 
 ## Qué puedo aportar

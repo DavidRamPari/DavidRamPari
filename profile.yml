@@ -102,9 +102,9 @@ focus:
 
 # Contact buttons, in this order. Empty values are skipped. The first one gets the yellow border.
 contacts:
-  email: ""           # TODO: the address recruiters and clients should use
-  linkedin: ""        # TODO: https://www.linkedin.com/in/...
-  website: ""         # TODO: portfolio URL
+  email: davidramosparihuaman.22@hotmail.com
+  linkedin: https://www.linkedin.com/in/david-ramos-parihuaman-8a1115354
+  website: ""         # portfolio URL, once there is one
 
 banner:
   hud: true                           # arcade header: 1UP, HI-SCORE (contributions in the last year) and REPOS; false hides it
