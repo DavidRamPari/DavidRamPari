@@ -1,0 +1,5 @@
+pyyaml>=6.0
+pillow>=10.0
+numpy>=1.26
+uharfbuzz>=0.40
+fonttools>=4.50

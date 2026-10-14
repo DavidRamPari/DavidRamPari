@@ -1,0 +1,57 @@
+name: Build profile
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 05:00 in Lima (UTC-5)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - profile.yml
+      - scripts/**
+      - templates/**
+      - assets/source/**
+      - assets/icons/**
+      - assets/fonts/**
+      - requirements.txt
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Draw the images and write both READMEs
+        run: python scripts/build.py
+        env:
+          # The workflow's own token is enough. A PROFILE_TOKEN secret, if you add one, is used instead.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit the result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md README.es.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "chore(profile): refresh generated assets"
+            git push
+          fi

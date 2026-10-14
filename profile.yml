@@ -1,0 +1,124 @@
+# Everything on the profile comes from this file.
+# Edit it and push: the "Build profile" workflow redraws the images and both READMEs.
+# Fields with `en` / `es` go to README.md (English) and README.es.md (Spanish).
+
+user: DavidRamPari
+name: David Ramos          # shown in the banner, the whoami card and the profile.yml panel
+
+role:
+  en: Full-stack developer
+  es: Desarrollador full-stack
+studies:
+  en: Computer Science at UPC
+  es: Ciencias de la Computación en la UPC
+location:
+  en: Lima, Peru
+  es: Lima, Perú
+timezone: UTC-5
+
+headline:
+  en: Full-stack developer and Computer Science student at UPC in Lima, Peru
+  es: Desarrollador full-stack y estudiante de Ciencias de la Computación en la UPC (Lima, Perú)
+pitch:
+  en: >-
+    I build web products end to end, from the database and the API to the interface,
+    with TypeScript, React, Node.js and PostgreSQL.
+  es: >-
+    Construyo productos web de punta a punta, desde la base de datos y la API hasta
+    la interfaz, con TypeScript, React, Node.js y PostgreSQL.
+
+# Short form for the banner and the whoami card, sentence form under the banner.
+open_to:
+  en: [Freelance projects, Internships, Junior roles]
+  es: [Proyectos freelance, Prácticas, Puestos junior]
+open_to_line:
+  en: Open to freelance projects, internships and junior roles.
+  es: Disponible para proyectos freelance, prácticas y puestos junior.
+
+# "What I can offer" table. Short, concrete, true.
+offer:
+  - title: {en: "Full‑stack web apps", es: "Aplicaciones web full‑stack"}   # non-breaking hyphen
+    body:
+      en: React and TypeScript interfaces, REST APIs with Node and Express, and PostgreSQL data models, from design to deployment.
+      es: Interfaces en React con TypeScript, APIs REST con Node y Express y bases de datos en PostgreSQL, desde el diseño hasta el despliegue.
+  - title: {en: Online stores and marketplaces, es: Tiendas en línea y marketplaces}
+    body:
+      en: Product catalogs, orders and admin panels for small brands and independent sellers.
+      es: Catálogos, pedidos y paneles de administración para marcas pequeñas y vendedores independientes.
+  - title: {en: Deploys and automation, es: Despliegue y automatización}
+    body:
+      en: Docker, Azure, Linux and GitHub Actions. This profile rebuilds itself every day.
+      es: Docker, Azure, Linux y GitHub Actions. Este perfil se reconstruye solo cada día.
+
+projects:
+  - name: ZAREGOKI
+    url: https://zaregoki.com
+    stack: [TypeScript, React, Express, PostgreSQL]
+    desc:
+      en: "Online store for an independent artist: original pieces and merch, with a gallery, a cart and payments through Mercado Pago (cards, Yape and Plin). Client project; the code is private."
+      es: "Tienda en línea de una artista independiente: obra original y merch, con galería, carrito y pagos con Mercado Pago (tarjeta, Yape y Plin). Proyecto para una clienta; el código es privado."
+  # Hidden entries stay here for later. Set `show: true` to list one.
+  - name: {en: DavidRamPari (this profile), es: DavidRamPari (este perfil)}
+    show: false
+    url: https://github.com/DavidRamPari/DavidRamPari
+    stack: [Python, GitHub Actions]
+    desc:
+      en: Self-updating profile. My own Python scripts draw every image and a daily Action publishes them.
+      es: Perfil que se actualiza solo. Mis scripts en Python dibujan cada imagen y una Action diaria las publica.
+
+# Logos come from assets/icons (single colour). `main` is the first row and is shown in the banner.
+stack:
+  title: {en: Tech stack, es: Stack}
+  main: [typescript, react, nodedotjs, express, postgresql]
+  also: [javascript, vite, python, docker, azure, linux, git, cplusplus]
+  items:
+    - {id: typescript, label: TypeScript}
+    - {id: react, label: React}
+    - {id: nodedotjs, label: Node.js}
+    - {id: express, label: Express}
+    - {id: postgresql, label: PostgreSQL}
+    - {id: javascript, label: JavaScript}
+    - {id: vite, label: Vite}
+    - {id: python, label: Python}
+    - {id: docker, label: Docker}
+    - {id: azure, label: Azure, icon: cloud}   # no single-colour Azure logo is available, so a plain cloud
+    - {id: linux, label: Linux}
+    - {id: git, label: Git}
+    - {id: cplusplus, label: C++}
+
+# Self-assessed radar (0-100). TODO: adjust these to what you honestly see in yourself.
+focus:
+  title: {en: Focus areas, es: Áreas de enfoque}
+  note:
+    en: Focus areas are self-assessed.
+    es: Las áreas de enfoque son una autoevaluación.
+  axes:
+    - {label: {en: Frontend, es: Frontend}, value: 75}
+    - {label: {en: Backend and APIs, es: Backend y APIs}, value: 80}
+    - {label: {en: Databases, es: Bases de datos}, value: 70}
+    - {label: {en: DevOps and cloud, es: DevOps y nube}, value: 55}
+    - {label: {en: Algorithms, es: Algoritmos}, value: 80}
+    - {label: {en: AI and ML, es: IA y ML}, value: 45}
+
+# Contact buttons, in this order. Empty values are skipped. The first one gets the yellow border.
+contacts:
+  email: ""           # TODO: the address recruiters and clients should use
+  linkedin: ""        # TODO: https://www.linkedin.com/in/...
+  website: ""         # TODO: portfolio URL
+
+banner:
+  hud: true                           # arcade header: 1UP, HI-SCORE (contributions in the last year) and REPOS; false hides it
+  avatar: assets/source/avatar.png   # drop your avatar here (square, plain background) and it replaces your name on the LED board
+  words: [TS, REACT, NODE, SQL]      # the LED dots turn into these (A-Z, 0-9, up to 6 letters)
+  file_comment:
+    en: "# this file builds the whole profile"
+    es: "# de este archivo sale todo el perfil"
+  # The line starts with a phrase of 36 characters or fewer followed by spaces: that is
+  # what stays visible when the line stops scrolling (and for people who turn motion off).
+  marquee:
+    en: "FREELANCE, INTERNSHIPS, JUNIOR ROLES      ★      BASED IN LIMA, PERU (UTC-5)      ★      "
+    es: "FREELANCE, PRÁCTICAS, PUESTOS JUNIOR      ★      DESDE LIMA, PERÚ (UTC-5)      ★      "
+
+# Read by .github/workflows/arcade.yml. Options: pacman, bomberman, galaga, breakout, puzzle-bobble, minesweeper
+arcade:
+  games: [pacman, bomberman]
