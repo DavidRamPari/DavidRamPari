@@ -65,5 +65,5 @@ Pac-Man y Bomberman recorren mi gráfico de contribuciones real, que se actualiz
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DavidRamPari/DavidRamPari/output/bomberman-contribution-graph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DavidRamPari/DavidRamPari/output/bomberman-contribution-graph.svg"><img src="https://raw.githubusercontent.com/DavidRamPari/DavidRamPari/output/bomberman-contribution-graph.svg" alt="Bomberman jugando mi gráfico de contribuciones" width="100%"></picture>
 
 <div align="center">
-<sub>Generado con mis propios scripts en Python (última ejecución: 2026-10-19). Idea visual inspirada en <a href="https://github.com/macu-dev">@macu-dev</a>.</sub>
+<sub>Generado con mis propios scripts en Python (última ejecución: 2026-10-20). Idea visual inspirada en <a href="https://github.com/macu-dev">@macu-dev</a>.</sub>
 </div>
