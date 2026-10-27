@@ -58,7 +58,7 @@ projects:
       en: "Online store for an independent artist: original pieces and merch, with a gallery, a cart and payments through Mercado Pago (cards, Yape and Plin). Client project; the code is private."
       es: "Tienda en línea de una artista independiente: obra original y merch, con galería, carrito y pagos con Mercado Pago (tarjeta, Yape y Plin). Proyecto para una clienta; el código es privado."
       
-    - name: Centinela
+  - name: Centinela
     url: https://github.com/DavidRamPari/centinela
     stack: [TypeScript, React, Express, PostgreSQL, Docker]
     desc:
