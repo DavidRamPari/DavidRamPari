@@ -37,6 +37,7 @@ Open to freelance projects, internships and junior roles.
 | Project | What it does | Stack |
 | --- | --- | --- |
 | [ZAREGOKI](https://zaregoki.com) | Online store for an independent artist: original pieces and merch, with a gallery, a cart and payments through Mercado Pago (cards, Yape and Plin). Client project; the code is private. | TypeScript, React, Express, PostgreSQL |
+| [Centinela](https://github.com/DavidRamPari/centinela) | Small open-source SIEM: it ingests Linux, web server and Windows Sysmon logs, detects attacks with 1,245 Sigma and correlation rules, maps every alert to MITRE ATT&CK and shows a response playbook in English or Spanish. It detects all 19 attacks in its demo data, backed by 1,342 tests. | TypeScript, React, Express, PostgreSQL, Docker |
 
 ## Tech stack
 

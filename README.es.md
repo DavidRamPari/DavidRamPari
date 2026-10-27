@@ -37,6 +37,7 @@ Disponible para proyectos freelance, prácticas y puestos junior.
 | Proyecto | Qué hace | Stack |
 | --- | --- | --- |
 | [ZAREGOKI](https://zaregoki.com) | Tienda en línea de una artista independiente: obra original y merch, con galería, carrito y pagos con Mercado Pago (tarjeta, Yape y Plin). Proyecto para una clienta; el código es privado. | TypeScript, React, Express, PostgreSQL |
+| [Centinela](https://github.com/DavidRamPari/centinela) | SIEM pequeño de código abierto: ingiere logs de Linux, de servidores web y de Sysmon de Windows, detecta ataques con 1,245 reglas Sigma y de correlación, mapea cada alerta a MITRE ATT&CK y muestra una guía de respuesta en español o en inglés. Detecta los 19 ataques de su demo y lo respaldan 1,342 tests. | TypeScript, React, Express, PostgreSQL, Docker |
 
 ## Stack
 
