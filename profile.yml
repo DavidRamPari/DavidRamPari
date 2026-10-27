@@ -57,6 +57,13 @@ projects:
     desc:
       en: "Online store for an independent artist: original pieces and merch, with a gallery, a cart and payments through Mercado Pago (cards, Yape and Plin). Client project; the code is private."
       es: "Tienda en línea de una artista independiente: obra original y merch, con galería, carrito y pagos con Mercado Pago (tarjeta, Yape y Plin). Proyecto para una clienta; el código es privado."
+      
+    - name: Centinela
+    url: https://github.com/DavidRamPari/centinela
+    stack: [TypeScript, React, Express, PostgreSQL, Docker]
+    desc:
+      en: "Small open-source SIEM: it ingests Linux, web server and Windows Sysmon logs, detects attacks with 1,245 Sigma and correlation rules, maps every alert to MITRE ATT&CK and shows a response playbook in English or Spanish. It detects all 19 attacks in its demo data, backed by 1,342 tests."
+      es: "SIEM pequeño de código abierto: ingiere logs de Linux, de servidores web y de Sysmon de Windows, detecta ataques con 1,245 reglas Sigma y de correlación, mapea cada alerta a MITRE ATT&CK y muestra una guía de respuesta en español o en inglés. Detecta los 19 ataques de su demo y lo respaldan 1,342 tests."
   # Hidden entries stay here for later. Set `show: true` to list one.
   - name: {en: DavidRamPari (this profile), es: DavidRamPari (este perfil)}
     show: false
